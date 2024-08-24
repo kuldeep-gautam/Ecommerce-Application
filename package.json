@@ -1,0 +1,38 @@
+{
+  "name": "gogreenapp",
+  "version": "1.0.0",
+  "description": "Ecommerce go green app api",
+  "main": "server.js",
+  "type": "module",
+ 
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+   
+  },
+  "keywords": [],
+  "author": "Kuldeep Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "braintree": "^3.15.0",
+    "buffer": "^6.0.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "icons": "^1.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21",
+    "react": "^18.2.0",
+    "react-script": "^2.0.5",
+    "script": "^0.1.4",
+    "slugify": "^1.6.6"
+  }
+}
